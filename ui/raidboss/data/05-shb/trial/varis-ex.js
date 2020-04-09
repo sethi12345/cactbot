@@ -53,7 +53,7 @@
     {
       id: 'VarisEx Alea lacta Est',
       regex: Regexes.startsUsing({ source: 'Varis Yae Galvus', id: '4CD2', capture: false }),
-      response: Reponses.getBehind('alarm'),
+      response: Responses.getBehind('alarm'),
     },
     {
       id: 'VarisEx Alea lacta Est Front',
