@@ -95,6 +95,13 @@
       },
     },
     {
+      id: 'VarisEx Terminus Est',
+      regex: Regexes.startsUsing({ source: 'Terminus Est', id: '4CB4', capture: false }),
+      infoText: {
+        en: 'Dodge Clones',
+      },
+    },
+    {
       id: 'VarisEx Magitek Spark',
       regex: Regexes.startsUsing({ source: 'Gunshield', id: '4E50', capture: false }),
       response: Responses.spread(),
